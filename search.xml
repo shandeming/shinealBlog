@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2025/06/04/hello-world/</url>
+    <url>/shinealBlog/2025/06/04/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -20,7 +20,7 @@
   </entry>
   <entry>
     <title>&quot;系统代理下为什么无法ping通&quot;</title>
-    <url>/2025/06/04/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86%E4%B8%8B%E4%B8%BA%E4%BB%80%E4%B9%88%E6%97%A0%E6%B3%95ping%E9%80%9A/</url>
+    <url>/shinealBlog/2025/06/04/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86%E4%B8%8B%E4%B8%BA%E4%BB%80%E4%B9%88%E6%97%A0%E6%B3%95ping%E9%80%9A/</url>
     <content><![CDATA[<p>The ping command was sent from the network layer.<br>• layer：网络层（Layer 3）<br>• Protocol ：ICMP<br>• function：Test whether the target IP can be reached, and measure the delay and packet loss</p>
 <p>代理软件是在应用层接受连接：<br>ping命令(使用的是ICMP协议，在网络层)无法使用代理<br>但是，如果开启了tun模式，这时候代理软件作用于网络层，模拟一个虚拟网络接口用于接收请求，这时ping命令会走向代理。</p>
 ]]></content>
